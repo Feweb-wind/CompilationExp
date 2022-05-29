@@ -1,0 +1,49 @@
+* {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e6d7a;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body,
+p,
+ul,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+img {
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}

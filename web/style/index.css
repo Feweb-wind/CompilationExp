@@ -1,0 +1,128 @@
+body {
+  background: url(../img/index-bcg.png) no-repeat;
+  background-size: 102%;
+  background-attachment: fixed;
+  background-position: center top;
+}
+header {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #000000;
+}
+header .main-nav {
+  max-width: 100%;
+  height: 65px;
+  background-color: #ffffff;
+  border-radius: 35px;
+}
+header .main-nav ul {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+header .main-nav ul li {
+  height: 100%;
+  display: flex;
+  line-height: 65px;
+  color: #000000;
+  font-size: inherit;
+  font-weight: 600;
+  margin-left: 45px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+header .main-nav ul .li-active {
+  color: #71a5ff;
+  border-bottom: 5px solid #629bfd;
+}
+main {
+  margin-bottom: 30px;
+}
+main .main-box {
+  box-sizing: border-box;
+  display: none;
+  width: 100%;
+  min-height: 580px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.8);
+}
+main .main-box h4 {
+  color: #8db8ff;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  margin-bottom: 30px;
+}
+main .main-box h4 span {
+  font-size: 16px;
+  color: #333;
+  padding: 0 25px;
+  font-weight: inherit;
+}
+main .main-analy {
+  display: block;
+}
+main .main-analy .analy-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+main .main-analy .analy-bottom .analy-textarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .main-analy .analy-bottom .analy-textarea textarea {
+  width: 480px;
+  height: 400px;
+  resize: none;
+  outline: none;
+  border: 2px solid #d5e5ff;
+  border-radius: 10px;
+  padding: 20px;
+  color: #000000;
+}
+main .main-analy .analy-bottom .analy-textarea .option {
+  margin-top: 20px;
+  display: flex;
+}
+main .main-analy .analy-bottom .analy-textarea .option input {
+  display: none;
+}
+main .main-analy .analy-bottom .analy-textarea .option button {
+  align-self: flex-end;
+  padding: 12px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  border-radius: 10px;
+  outline: none;
+  display: block;
+  background: #f6f6f6;
+  color: #629bfd;
+  border: solid 1px #d5e5ff;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: background-color 1s ease-out;
+}
+main .main-analy .analy-bottom .analy-textarea .option button:hover {
+  background: #8db8ff;
+  color: #f6f6f6;
+  transition: background-color 1s ease-out;
+}
+main .main-analy .analy-bottom .analy-table {
+  width: 480px;
+  height: 400px;
+  overflow: auto;
+}
+main .main-analy .analy-bottom .analy-table table {
+  width: 100%;
+  text-align: center;
+}
+main .main-analy .analy-bottom .analy-table table th {
+  text-align: center !important;
+}

@@ -5,13 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>编译原理实验-词法分析</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/public.css">
     <script src="./script/jquery-3.4.1.min.js"></script>
-    <script src="./script/index.js"></script>
+    <link rel="stylesheet" href="./style/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <script src="./style/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <nav class="main-nav">
+                <ul>
+                    <li class="li-active">词法分析</li>
+                    <li>关键字表</li>
+                    <li>分界符表</li>
+                    <li>字符表</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="main-analy main-box">
+                <h4>———————<span>词法分析过程</span>———————————————————————————————————————————————————</h4>
+                <div class="analy-bottom">
+                    <div class="analy-textarea">
+                        <textarea placeholder="请输入程序段或从文件中导入">
+                        </textarea>
+                        <div class="option">
+                            <input type="file" value="打开文件" class="inputopenfile">
+                            <button id="analy-openfile">打开文件</button>
+                            <button id="analy-start">词法分析</button>
+                        </div>
+                    </div>
+                    <div class="analy-table">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>序号</th>
+                                    <th>单词内容</th>
+                                    <th>单词种类</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>int</td>
+                                    <td>标识符</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="main-keyword main-box">
+                <h4>———————<span>关键字符表</span>———————————————————————————————————————————————————</h4>
+                <div class="keyword-table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>关键字</th>
+                                <th>修改</th>
+                                <th>删除</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>int</td>
 
+
+
+                                
+                                <td><button class="operate-modify">修改</button></td>
+                                <td><button class="operate-delete">删除</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="main-delimter main-box">
+                <h4>———————<span>单分节符表</span>———————————————————————————————————————————————————</h4>
+            </div>
+            <div class="main-character main-box">
+                <h4>———————<span>其他字符表</span>———————————————————————————————————————————————————</h4>
+            </div>
+        </main>
+    </div>
 </body>
+<script src="./script/index.js"></script>
 
 </html>
